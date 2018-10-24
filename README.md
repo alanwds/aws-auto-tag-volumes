@@ -22,7 +22,7 @@ The script use boto, so, if you already have aws/credentials file, the script wi
 
 # Docker
 
-docker run -e DEBUG="1" -e REQUIRED_TAG="MyCostCenter" -e AWS_DEFAULT_REGION="XXXX" -e AWS_ACCESS_KEY_ID="XXXXXX" -e AWS_SECRET_ACCESS_KEY="XXXXX" alanwds/aws-auto-tag-volumes:latest
+docker run --rm -e DEBUG="1" -e REQUIRED_TAG="MyCostCenter" -e AWS_DEFAULT_REGION="XXXX" -e AWS_ACCESS_KEY_ID="XXXXXX" -e AWS_SECRET_ACCESS_KEY="XXXXX" alanwds/aws-auto-tag-volumes:latest
 
 ######
 
